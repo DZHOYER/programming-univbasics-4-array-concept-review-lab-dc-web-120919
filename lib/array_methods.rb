@@ -1,11 +1,20 @@
 def find_element_index(array, value_to_find)
-  # Add your solution here
-end
-
+  array.length.times { |count|
+  if array[count]== value_to_find  
+  return count
+  }
+  
 def find_max_value(array)
-  # Add your solution here
+  x=0
+  array.length.times { |index|
+  if array[index] > x
+    x=array[index]
+  }
+  x
 end
 
 def find_min_value(array)
-  # Add your solution here
+  puts array.length { ||
+    puts array[]
+  }
 end
